@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DSAlgo Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DSAlgo Application Test Cases(failed)">
+    <classes>
+      <class name="com.DsAlgo.testcases.Exceldataprovider">
+        <methods>
+          <include name="teardown"/>
+          <include name="test1"/>
+          <include name="browsersetup"/>
+        </methods>
+      </class> <!-- com.DsAlgo.testcases.Exceldataprovider -->
+      <class name="com.DsAlgo.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.DsAlgo.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- DSAlgo Application Test Cases(failed) -->
+</suite> <!-- Failed suite [DSAlgo Application Test Automation Test Suite] -->

@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 2, Errors: 0, Skipped: 10, Time elapsed: 56.195 s <<< FAILURE! - in TestSuite
+setUp(com.DsAlgo.testcases.DataStructurePageTest)  Time elapsed: 3.944 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAVILUCKYLENOVO', ip: '192.168.1.147', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at com.DsAlgo.testcases.DataStructurePageTest.setUp(DataStructurePageTest.java:34)
+
+takeScreenShotTest(com.DsAlgo.testcases.LoginPageTest)  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: expected [ NumpyNinja home page title] but found [Login]
+	at com.DsAlgo.testcases.LoginPageTest.takeScreenShotTest(LoginPageTest.java:42)
+
